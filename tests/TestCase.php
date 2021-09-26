@@ -1,6 +1,6 @@
 <?php
 
-namespace CoreAlg\Auth\Tests;
+namespace CoreAlg\Helper\Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

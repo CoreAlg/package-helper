@@ -9,13 +9,18 @@
             "email": "mizan3008@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.0",
+        "ntwindia/ntwindia": "^1.0"
+    },
     "require-dev": {
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "CoreAlg\\Helper\\": "src"
+            "CoreAlg\\Helper\\": "src",
+            "CoreAlg\\Helper\\Tests\\": "tests"
         }
     },
     "scripts": {
