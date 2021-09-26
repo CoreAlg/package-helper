@@ -1,0 +1,25 @@
+{
+    "name": "corealg/helper",
+    "description": "Helper package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mizanur Rahman",
+            "email": "mizan3008@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoreAlg\\Helper\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-f": "vendor/bin/phpunit --filter"
+    }
+}
