@@ -1,12 +1,17 @@
 {
     "name": "corealg/helper",
-    "description": "Helper package",
+    "description": "This package provides some common helper functions that we need regularly for almost every project.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "helper"
+    ],
     "authors": [
         {
             "name": "Mizanur Rahman",
-            "email": "mizan3008@gmail.com"
+            "email": "mizan3008@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -19,7 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CoreAlg\\Helper\\": "src",
+            "CoreAlg\\Helper\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload-dev": {
+        "psr-4": {
             "CoreAlg\\Helper\\Tests\\": "tests"
         }
     },
