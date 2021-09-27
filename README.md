@@ -6,6 +6,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+This package provides some common helper functions that we need regularly for almost every project.
+
+**Useful helper functions will be added from time to time**
+
 ## Installation
 
 Require this package with composer.
