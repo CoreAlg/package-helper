@@ -123,19 +123,16 @@ class Helper
 
         if ($close_button === true) {
             $close_button_html = "
-                <button type='button' class='close' data-dismiss='alert'>
-                    <span aria-hidden='true'>×</span>
-                    <span class='sr-only'>Close</span>
-                </button>
+                <button type='button' class='btn-close'  data-bs-dismiss='alert' aria-label='Close'></button>
             ";
         } else {
             $close_button_html = "";
         }
 
         $html = "
-            <div class='alert alert-$class mb-2'>
+            <div class='alert alert-$class alert-dismissible'>
+                $message
                 $close_button_html
-                <i class='bx bxs-$icon'></i> $message
             </div>
         ";
 
